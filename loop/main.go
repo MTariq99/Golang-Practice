@@ -3,11 +3,12 @@ package main
 import "fmt"
 
 func main() {
-	var rows = 9
-	for i := 1; i <= rows; i++ {
+
+	for i := 1; i <= 9; i++ {
 		for j := 1; j <= i; j++ {
-			fmt.Printf("%d", j)
+			fmt.Printf("%d ", j)
 		}
 		fmt.Println(" ")
 	}
+
 }
